@@ -1,0 +1,192 @@
+:root {
+    --section-padding: 7% 15%;
+    --main-color: #ff4c68;
+    --second-color: #ef8172;
+    --color-white: #fff;
+    --main-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Ubuntu', sans-serif;
+    --shawdow-dark: 0 2rem 6rem rgb(0 0 0 / 30%);
+}
+
+body {
+    font-family: var(--main-font);
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+ 
+/* Header */
+.header {
+    background: var(--main-color);
+    color: var(--color-white);
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.header-one {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+.header-img {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* Section 1 */
+.section {
+    background-color: var(--color-white);
+    position: relative;
+    text-align: center;
+    padding: var(--section-padding);
+    
+}
+.header-two {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.lead1 {
+    color: #8f8f8f;
+    font-size: 1.3rem;
+}
+
+.fas {
+    color: var(--second-color);
+    transition: all .8s;
+}
+
+.fas:hover {
+    color: var(--main-color);
+}
+
+/* Section 2 */
+.section2 {
+    background: var(--second-color);
+    color: var(--color-white);
+}
+
+.section2-header2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.dog {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;    
+}
+
+/* Section 3 */
+.section3 {
+    background: var(--second-color);
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.sponsor {
+    width: 15%;
+    margin: 0 2rem;
+}
+
+.carousel-item, .prices {
+    padding: var(--section-padding);
+    text-align: center;
+}
+
+/* Section 4 */
+.header-three {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.card {
+    margin: 4rem .3rem;
+    box-shadow: var(--shawdow-dark);
+}
+
+.title-container {
+    background: #f7f7f7;
+}
+
+.title {
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.prices-paragraph {
+    color: #8f8f8f;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+/* Section 5 */
+.section-5 {
+    background: var(--main-color);
+    padding: var(--section-padding);
+    color:  var(--color-white);
+    text-align: center;
+}
+
+.section5-header2 {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+/* Footer */
+.footer {
+    padding: var(--section-padding);
+    text-align: center;
+}
+
+.footer-paragraph {
+    color: #999999;
+}
+
+.other-icons {
+    margin: .6rem;
+}
+
+/* Responsive Design */
+@media (max-width: 990px) {
+
+    .header-2-container {
+        text-align: center;
+    }
+    .header-img {
+        position: static;
+        width: 40%;
+        transform: rotate(0);
+        margin-top: 2rem;
+    }
+}
