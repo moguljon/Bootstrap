@@ -1,37 +1,208 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindog</title>
+    <!-- Good Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header text-light">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand logo" href="#">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#prices">Prices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#download">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+        <div class="row header-2-container">
+          <div class="col-lg-6 container2">
+            <h1 class="header-one">Meet new and Interesting dogs nearby.</h1>
+            <button type="button" class="btn btn-dark btn-lg mr-4 mt-4"><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-lg btn-outline-light btn-lg mr-4 mt-4"><i class="fab fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6">
+            <img src="img/iphone6.png" alt="dog" class="header-img">
+          </div>
+        </div>
+    </div>
+  </header>
+  <!-- End Header -->
 
-You can use the [editor on GitHub](https://github.com/moguljon/Bootstrap/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <!-- Secction -1 -->
+  <section id="about" class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4">
+          <i class="fas far fa-check-square fa-4x mb-4"></i>
+          <h3 class="header-two">Easy to use.</h2>
+          <p class="lead1">So easy to use even your dog could do it.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-bullseye fa-4x mb-4"></i>
+          <h3 class="header-two">Elite Clientele.</h2>
+          <p class="lead1">We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-heart fa-4x mb-4"></i>
+          <h3 class="header-two">Guaranteed to work.</h2>
+          <p class="lead1">Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Secction -1-->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <!-- Section -2 -->
+  <section class="section2">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="container-fluid">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="section2-header2">I no longer have to sniff other dogs for love. I've found the hottest Corgy on TinDog. Woof.</h2>
+              <img class="dog" src="img/dog-img.jpg" alt="First slide"">
+              <em>Pebbles, New York</em> 
+            </div>
+            <div class="carousel-item">
+              <h2 class="section2-header2">I no longer have to sniff other dogs for love. I've found the hottest Corgy on TinDog. Woof.</h2>
+              <img class="dog" src="img/lady-img.jpg" alt="Lady">
+              <em>Pebbles, New York</em> 
+            </div>
+            <div class="carousel-item">
+              <h2 class="section2-header2">I no longer have to sniff other dogs for love. I've found the hottest Corgy on TinDog. Woof.</h2>
+              <img class="dog" src="img/dog-img.jpg" alt="Third slide">
+              <em>Pebbles, New York</em> 
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  </section>
+  <!-- End Section -2 -->
 
-### Markdown
+  <!-- Section -3 -->
+  <section class="section3">
+    <div class="img-container">
+      <img src="img/TechCrunch.png" alt="tech crunch" class="sponsor">
+      <img src="img/tnw.png" alt="tnw" class="sponsor">
+      <img src="img/bizinsider.png" alt="business insidde" class="sponsor">
+      <img src="img/mashable.png" alt="mashable" class="sponsor">
+    </div>
+  </section>
+  <!-- End Section -3 -->
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <!-- Section -4 -->
+  <section id="prices" class="prices">
+    <div class="container-fluid">
+      <h3 class="header-three">A Plan for Every Dog's Needs</h3>
+      <p class="prices-paragraph">Simple and affordable price plans for you and your dog.</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card" ">
+            <div class="title-container">
+              <h4 class="title">Chihuahua</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Free</h5>
+              <p class="card-text">5 Matches Pr Day</p>
+              <p class="card-text">10 Messages Per Day</p>
+              <p class="card-text">Unlimited App Usage</p>
+              <a href="#" class="btn btn-lg btn-block btn-outline-dark">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="title-container">
+              <h4 class="title">Labrador</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">$49 / mo</h5>
+              <p class="card-text">Unlimited Matches</p>
+              <p class="card-text">Unlimited Messages</p>
+              <p class="card-text">Unlimited App Usage</p>
+              <a href="#" class="btn btn-lg btn-block btn-dark">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card"">
+            <div class="title-container">
+              <h4 class="title">Mastiff</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">$99 / mo</h5>
+              <p class="card-text">Priority Listing</p>
+              <p class="card-text">Unlimited Matches</p>
+              <p class="card-text">Unlimited Messages</p>
+              <p class="card-text">Unlimited App Usage</p>
+              <a href="#" class="btn btn-lg btn-block btn-dark">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+    </div>
+  <!-- End Section -4 -->
 
-```markdown
-Syntax highlighted code block
+  <!--Section -5  -->
+  <section id='download' class="section-5">
+    <div class="container-fluid">
+      <div class="section5-container">
+        <h2 class="section5-header2">Find the True Love of Your Dog's Life Today</h2>
+        <button type="button" class="btn btn-dark btn-lg mr-4 mt-4"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-lg btn-outline-light btn-lg mr-4 mt-4"><i class="fab fa-google-play"></i> Download</button>
+      </div>
+    </div>
+  </section>
+  <!-- End Section -5 -->
 
-# Header 1
-## Header 2
-### Header 3
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container=fluid">
+      <div class="footer-icons container-fluid">
+        <i class="other-icons fab fa-instagram fa-2x"></i>
+        <i class="other-icons fab fa-facebook-square fa-2x"></i>
+        <i class="other-icons fab fa-twitter fa-2x"></i>
+      </div>
+      <p class='footer-paragraph'>&copy;Copyright 2021 TinDog Built by <a href="https://webstudios.io/">webstudios.io</a></p>
+    </div>
+  </footer>
+  <!-- End Footer -->
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-hello
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/moguljon/Bootstrap/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <!-- Bootstrap JS Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
