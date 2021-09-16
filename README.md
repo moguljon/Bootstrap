@@ -1,2 +1,2 @@
 # Bootstrap
-A bootstrap website that was built for practice. Section 7 of Angela's Yuu Complete Web Developer 2021.
+Welcome to my website it is a pleasure to have you here
